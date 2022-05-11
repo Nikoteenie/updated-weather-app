@@ -1,0 +1,100 @@
+body {
+  font-family: "Source Code Pro", monospace;
+}
+
+.container {
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 219, 47) 11.2%,
+    rgb(244, 253, 0) 100.2%
+  );
+  border-radius: 10px;
+  border-style: solid;
+  margin: 20px;
+  max-height: 520px;
+  width: 60%;
+}
+
+form {
+  padding-top: 20px;
+}
+
+#current-button {
+  position: relative;
+  top: -38px;
+  right: -308px;
+}
+
+.city-day {
+  text-align: right;
+  position: relative;
+  top: 10px;
+  right: 12px;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: bold;
+  position: relative;
+  left: -21px;
+}
+
+#day-time {
+  font-size: 18px;
+  position: relative;
+  left: -25px;
+}
+
+.today-image {
+  text-align: center;
+  font-size: 170px;
+  position: relative;
+  top: -47px;
+  left: 24px;
+}
+
+.temp {
+  font-size: 90px;
+  position: relative;
+  bottom: 289px;
+  left: 50px;
+}
+
+.convert {
+  font-size: 30px;
+  position: relative;
+  bottom: 395px;
+  left: 154px;
+}
+
+.temp-details {
+  font-size: 15px;
+  text-align: right;
+  position: relative;
+  bottom: 354px;
+  right: 534px;
+}
+#description {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.week {
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  position: relative;
+  bottom: 305px;
+}
+
+.week-image {
+  font-size: 30px;
+}
+
+footer {
+  font-size: 12px;
+  position: relative;
+  top: -17px;
+  right: -22px;
+}
